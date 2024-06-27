@@ -24,9 +24,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is the description of your new website! You can edit this
   line in _config.yml
 #baseurl: "" # the subpath of your site, e.g. /blog COMMENT THIS OUT
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/Inventory"  # the subpath of your site, ensure it matches your repository name
+url: "https://i551319.github.io"
 
-github_username:  gnorthrup
 
 
 data_files:
