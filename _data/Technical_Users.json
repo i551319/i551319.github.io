@@ -1,0 +1,18 @@
+[
+    {
+        "Username/Identifier": "neocoresre-serviceuser",
+        "Role/Purpose": "Github Team User",
+        "Location URL": "https://password.wdf.sap.corp/passvault/#/pwd/0000386140",
+        "Associated Systems/Applications": "Github",
+        "Access Levels/Permissions": "Full Admin Access",
+        "Ownership/Responsible Teams": "NEO Core SRE"
+    },
+    {
+        "Username/Identifier": "CLS Credentials",
+        "Role/Purpose": "CLS Credentials",
+        "Location URL": "https://password.wdf.sap.corp/passvault/#/search?BusunitId=9999999999&RegionId=9&CatId=9999999999&TeamId=0000003482&PasswordType=00&FreeSearchString=Client%20certificate%20for%20CockpitAPI",
+        "Associated Systems/Applications": "CLS",
+        "Access Levels/Permissions": "Full Admin Access",
+        "Ownership/Responsible Teams": "NEO Core SRE"
+    }
+]

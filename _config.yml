@@ -25,14 +25,40 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml
 #baseurl: "" # the subpath of your site, e.g. /blog COMMENT THIS OUT
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: graham_northrup
+
 github_username:  gnorthrup
 
-# Build settings
-theme: minima
-#theme: minimal-mistakes-jekyll #for changing the theme
+
+data_files:
+  - _data/Certificates.json
+  - _data/How_used.json
+  - _data/Technical_Users.json
+  - _data/Tokens.json
+  - _data/Where_used.json
+  - _data/Maintenance.json
+
+
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+
+include:
+  - _data
+  - _layouts
+  - _posts
+  - _sass
+  - assets
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+exclude: [vendor]
+
+# Author info
+author:
+  name: Neo CORE SRE Team
+  email: sre@example.com
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,0 +1,155 @@
+[
+    {
+        "Name": "Azure Sharepoint Token - Ofp**",
+        "Authentication Method": "Secret / Access Token",
+        "Type": "Token",
+        "Routine Maintenance Tasks": "Review App permissions",
+        "Incident Response Steps": "Investigate expired/invalid Tokens",
+        "Update and Patch Management": "Update Passvault  versions",
+        "Change Management Processes": "Renew when and where necessary"
+    },
+    {
+        "Name": "Splunk App Secret",
+        "Authentication Method": "Secret / Access Token",
+        "Type": "Token",
+        "Routine Maintenance Tasks": "Review App permissions",
+        "Incident Response Steps": "Investigate expired/invalid Tokens",
+        "Update and Patch Management": "Update Passvault  versions",
+        "Change Management Processes": "Renew when and where necessary"
+    },
+    {
+        "Name": "push to sharepoint token",
+        "Authentication Method": "Secret / Access Token",
+        "Type": "Token",
+        "Routine Maintenance Tasks": "Review App permissions",
+        "Incident Response Steps": "Investigate expired/invalid Tokens",
+        "Update and Patch Management": "Update Passvault  versions",
+        "Change Management Processes": "Renew when and where necessary"
+    },
+    {
+        "Name": "sharepoint",
+        "Authentication Method": "Secret / Access Token",
+        "Type": "Token",
+        "Routine Maintenance Tasks": "Review App permissions",
+        "Incident Response Steps": "Investigate expired/invalid Tokens",
+        "Update and Patch Management": "Update Passvault  versions",
+        "Change Management Processes": "Renew when and where necessary"
+    },
+    {
+        "Name": "Register for SUGAR service",
+        "Authentication Method": "Personal Access Token",
+        "Type": "Token",
+        "Routine Maintenance Tasks": NaN,
+        "Incident Response Steps": "Investigate expired/invalid Tokens",
+        "Update and Patch Management": "Update Passvault  versions",
+        "Change Management Processes": "Renew when and where necessary"
+    },
+    {
+        "Name": "Sugar Service",
+        "Authentication Method": "Personal Access Token",
+        "Type": "Token",
+        "Routine Maintenance Tasks": NaN,
+        "Incident Response Steps": "Investigate expired/invalid Tokens",
+        "Update and Patch Management": "Update Passvault  versions",
+        "Change Management Processes": "Renew when and where necessary"
+    },
+    {
+        "Name": "NEOCoreSRE_ReadTokenAPIv2",
+        "Authentication Method": "API token",
+        "Type": "Token",
+        "Routine Maintenance Tasks": NaN,
+        "Incident Response Steps": "Investigate expired/invalid Tokens",
+        "Update and Patch Management": "Update Passvault  versions",
+        "Change Management Processes": "Renew when and where necessary"
+    },
+    {
+        "Name": "ThousandEyes token for alerts",
+        "Authentication Method": "API token",
+        "Type": "Token",
+        "Routine Maintenance Tasks": NaN,
+        "Incident Response Steps": "Investigate expired/invalid Tokens",
+        "Update and Patch Management": "Update Passvault  versions",
+        "Change Management Processes": "Renew when and where necessary"
+    },
+    {
+        "Name": "Token for importing metrics to DT on Canary",
+        "Authentication Method": "API token",
+        "Type": "Token",
+        "Routine Maintenance Tasks": NaN,
+        "Incident Response Steps": "Investigate expired/invalid Tokens",
+        "Update and Patch Management": "Update Passvault  versions",
+        "Change Management Processes": "Renew when and where necessary"
+    },
+    {
+        "Name": "github token used for igor dashboard",
+        "Authentication Method": "Personal Access Token",
+        "Type": "Token",
+        "Routine Maintenance Tasks": NaN,
+        "Incident Response Steps": "Investigate expired/invalid Tokens",
+        "Update and Patch Management": "Update Passvault  versions",
+        "Change Management Processes": "Renew when and where necessary"
+    },
+    {
+        "Name": "TokenForDM_JaaS_Jenkins",
+        "Authentication Method": "API token",
+        "Type": "Token",
+        "Routine Maintenance Tasks": NaN,
+        "Incident Response Steps": "Investigate expired/invalid Tokens",
+        "Update and Patch Management": "Update Passvault  versions",
+        "Change Management Processes": "Renew when and where necessary"
+    },
+    {
+        "Name": "NEO Core SRE DCR External API Token",
+        "Authentication Method": "API token",
+        "Type": "Token",
+        "Routine Maintenance Tasks": NaN,
+        "Incident Response Steps": "Investigate expired/invalid Tokens",
+        "Update and Patch Management": "Update Passvault  versions",
+        "Change Management Processes": "Renew when and where necessary"
+    },
+    {
+        "Name": "Client certificate for CockpitAPI",
+        "Authentication Method": "Client Certificate",
+        "Type": "Oauth",
+        "Routine Maintenance Tasks": "Rotate every 5 months",
+        "Incident Response Steps": "Investigate expired/invalid Certificates",
+        "Update and Patch Management": "Update Passvault  versions",
+        "Change Management Processes": "Renew when and where necessary"
+    },
+    {
+        "Name": "Central Monitoring Cockpit integration",
+        "Authentication Method": "Client Certificate",
+        "Type": "Oauth",
+        "Routine Maintenance Tasks": "Rotate every 5 months",
+        "Incident Response Steps": "Investigate expired/invalid Certificates",
+        "Update and Patch Management": "Update Passvault  versions",
+        "Change Management Processes": "Renew when and where necessary"
+    },
+    {
+        "Name": "neocoresre-serviceuser",
+        "Authentication Method": "Technical User",
+        "Type": "Basic",
+        "Routine Maintenance Tasks": NaN,
+        "Incident Response Steps": NaN,
+        "Update and Patch Management": "Update Passvault  versions",
+        "Change Management Processes": NaN
+    },
+    {
+        "Name": "Splunk_API_KEY_ID_PAIR",
+        "Authentication Method": "API Key Pair",
+        "Type": "Splunk On Call",
+        "Routine Maintenance Tasks": NaN,
+        "Incident Response Steps": "Investigate expired/invalid Tokens",
+        "Update and Patch Management": "Update Passvault  versions",
+        "Change Management Processes": "Renew when and where necessary"
+    },
+    {
+        "Name": "CLS Credentials",
+        "Authentication Method": "CLS Credentials",
+        "Type": "Basic",
+        "Routine Maintenance Tasks": "Rotate Regularly ",
+        "Incident Response Steps": "Investigate expired/invalid Credentials",
+        "Update and Patch Management": "Update Passvault  versions",
+        "Change Management Processes": "Renew when and where necessary"
+    }
+]

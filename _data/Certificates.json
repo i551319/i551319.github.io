@@ -1,0 +1,28 @@
+[
+    {
+        "Certificate Name": "Client certificate for CockpitAPI",
+        "Certificate Type": "SSL/TLS",
+        "Issuer": "Monitoring Team",
+        "Location URL": "https://password.wdf.sap.corp/passvault/#/search?BusunitId=9999999999&RegionId=9&CatId=9999999999&TeamId=0000003482&PasswordType=00&FreeSearchString=Client%20certificate%20for%20CockpitAPI",
+        "Expiration Month": "August / February",
+        "Expiration Period2": "180 days",
+        "Associated Domains/Services": "Monitoring Cockpit",
+        "Installation Procedure": "Manual installation on Igor",
+        "Renewal Procedure": "onenote:https://sap.sharepoint.com/teams/SETeam/SiteAssets/SE%20Team%20Notebook/Tools%20_%20HOW%20TOs/IGOR%20(Jenkins).one#Rotate%20certificates%20for%20Cockpit%20API&section-id=%7B1D7EBD81-7E09-4683-8DC1-F8D2C8567DD3%7D&page-id=%7B158A1781-AE78-6947-A74C-73A609A43899%7D&end",
+        "Dependencies/Impact of Expiration": "Igor will lose functionality if expired - get metrics wont be possible",
+        "Ownership/Responsible Teams": "Neo Core SRE"
+    },
+    {
+        "Certificate Name": "Central Monitoring Cockpit integration",
+        "Certificate Type": "SSL/TLS",
+        "Issuer": "Monitoring Team",
+        "Location URL": "https://password.wdf.sap.corp/passvault/#/pwd/0000315628",
+        "Expiration Month": "August / February",
+        "Expiration Period2": "180 days",
+        "Associated Domains/Services": "Monitoring Cockpit",
+        "Installation Procedure": "Manual installation on Igor",
+        "Renewal Procedure": "onenote:https://sap.sharepoint.com/teams/SETeam/SiteAssets/SE%20Team%20Notebook/Tools%20_%20HOW%20TOs/IGOR%20(Jenkins).one#Rotate%20certificates%20for%20Cockpit%20API&section-id=%7B1D7EBD81-7E09-4683-8DC1-F8D2C8567DD3%7D&page-id=%7B158A1781-AE78-6947-A74C-73A609A43899%7D&end",
+        "Dependencies/Impact of Expiration": "Igor will lose functionality if expired - depends on CMC",
+        "Ownership/Responsible Teams": "Neo Core SRE"
+    }
+]

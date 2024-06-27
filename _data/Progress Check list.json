@@ -1,0 +1,52 @@
+[
+    {
+        "Method/Location": NaN,
+        "Jenkins": NaN,
+        "Dynatrace": NaN,
+        "Thousand eyes": NaN,
+        "Github": NaN,
+        "Azure": NaN,
+        "Other": NaN,
+        "All": 0
+    },
+    {
+        "Method/Location": "Certificates",
+        "Jenkins": 17.0,
+        "Dynatrace": NaN,
+        "Thousand eyes": NaN,
+        "Github": NaN,
+        "Azure": NaN,
+        "Other": NaN,
+        "All": 17
+    },
+    {
+        "Method/Location": "Technical user",
+        "Jenkins": NaN,
+        "Dynatrace": NaN,
+        "Thousand eyes": NaN,
+        "Github": 1.0,
+        "Azure": NaN,
+        "Other": NaN,
+        "All": 1
+    },
+    {
+        "Method/Location": "Tokens",
+        "Jenkins": 2.0,
+        "Dynatrace": 26.0,
+        "Thousand eyes": 1.0,
+        "Github": 3.0,
+        "Azure": 4.0,
+        "Other": 1.0,
+        "All": 37
+    },
+    {
+        "Method/Location": "Other",
+        "Jenkins": NaN,
+        "Dynatrace": NaN,
+        "Thousand eyes": NaN,
+        "Github": NaN,
+        "Azure": NaN,
+        "Other": NaN,
+        "All": 0
+    }
+]

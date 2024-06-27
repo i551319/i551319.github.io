@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <header class="site-header" role="banner">
+
+    <div class="wrapper">
+      <span class="menu-icon">
+        <a href="/">
+          <img src="/assets/logo.png"/>
+        </a>
+      </span>
+      <nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <label for="nav-trigger">
+           
+          </label>
+  
+          <div class="trigger"><a class="page-link" href="/index.html"><i class="fa fa-home" style="font-size:36px"></i></a><a class="page-link" href="/certs.html">Certificates Inventory</a><a class="page-link" href="/how_used.html">How Used</a><a class="page-link" href="/maintenance.html">Maintenance Procedures</a><a class="page-link" href="/technical_users.html">Users Inventory</a><a class="page-link" href="/tokens.html">Tokens Inventory</a><a class="page-link" href="/where_used.html">Where Used</a></div>
+        </nav>
+          <div class="search">
+        <div>
+          <input type="text" id="search" placeholder="Search . . ." required>
+        </div>
+      </div>
+      </div>
+      </div>
+        
+  </header>
+    <main class="page-content">
+      <div class="wrapper">
+      
+        {{ content }}
+      </div>  
+    </main>
+    <footer class="site-footer h-card">
+      <data class="u-url" href="/"></data>
+    
+      <div class="wrapper">
+    
+        
+    
+        <div class="footer-col-wrapper">
+          <div class="footer-col footer-col-1">
+            <h2 class="footer-heading">Neo CORE SRE Authentication Inventory</h2>
+          </div>
+    
+          <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+    </div>
+    
+          <div class="footer-col footer-col-3">
+            <p>Centralized inventory of authentication methods used by the Neo CORE SRE team</p>
+          </div>
+        </div>
+    
+      </div>
+    
+    </footer>
+    <script src="/assets/search.js"></script>
+    
+</body>
+
+</html>

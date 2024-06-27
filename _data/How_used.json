@@ -1,0 +1,155 @@
+[
+    {
+        "Name": "Azure Sharepoint Token - Ofp**",
+        "Authentication Method": "Secret / Access Token",
+        "Type": "Token",
+        "Typical Usage Scenarios": "User authentication for sharepoint",
+        "User Interactions": "Access Sharepoint Data via Get request",
+        "Automated Processes and Scripts": "Splunk Schedule Automation",
+        "Logs and Monitoring Details": "No logs, notificaiton on mail"
+    },
+    {
+        "Name": "Splunk App Secret",
+        "Authentication Method": "Secret / Access Token",
+        "Type": "Token",
+        "Typical Usage Scenarios": "User authentication for sharepoint",
+        "User Interactions": "Access Sharepoint Data via Get request",
+        "Automated Processes and Scripts": "Splunk Schedule Automation",
+        "Logs and Monitoring Details": "No logs, notificaiton on mail"
+    },
+    {
+        "Name": "push to sharepoint token",
+        "Authentication Method": "Secret / Access Token",
+        "Type": "Token",
+        "Typical Usage Scenarios": "User authentication for sharepoint",
+        "User Interactions": "Access Sharepoint Data via Post request",
+        "Automated Processes and Scripts": "Igor Reporting Automation",
+        "Logs and Monitoring Details": "No logs, notificaiton on mail"
+    },
+    {
+        "Name": "sharepoint",
+        "Authentication Method": "Secret / Access Token",
+        "Type": "Token",
+        "Typical Usage Scenarios": "User authentication for sharepoint",
+        "User Interactions": "Access Sharepoint Data via HTTP request - for testing",
+        "Automated Processes and Scripts": NaN,
+        "Logs and Monitoring Details": "No logs, notificaiton on mail"
+    },
+    {
+        "Name": "Register for SUGAR service",
+        "Authentication Method": "Personal Access Token",
+        "Type": "Token",
+        "Typical Usage Scenarios": "User authentication for Github Actions Runner Enablement ",
+        "User Interactions": NaN,
+        "Automated Processes and Scripts": NaN,
+        "Logs and Monitoring Details": "No logs, notificaiton on mail"
+    },
+    {
+        "Name": "Sugar Service",
+        "Authentication Method": "Personal Access Token",
+        "Type": "Token",
+        "Typical Usage Scenarios": "User authentication for Github Actions Runner Deploy",
+        "User Interactions": NaN,
+        "Automated Processes and Scripts": "Every Github Action ",
+        "Logs and Monitoring Details": "No logs, notificaiton on mail"
+    },
+    {
+        "Name": "NEOCoreSRE_ReadTokenAPIv2",
+        "Authentication Method": "API token",
+        "Type": "Token",
+        "Typical Usage Scenarios": "ASK BLAGO",
+        "User Interactions": "ASK BLAGO",
+        "Automated Processes and Scripts": "ASK BLAGO",
+        "Logs and Monitoring Details": "ASK BLAGO"
+    },
+    {
+        "Name": "ThousandEyes token for alerts",
+        "Authentication Method": "API token",
+        "Type": "Token",
+        "Typical Usage Scenarios": "In Igor Pipelines that check Thousand eyes alerts, JaAS",
+        "User Interactions": NaN,
+        "Automated Processes and Scripts": "Igor Automations, JaAS",
+        "Logs and Monitoring Details": "Igor logs, JaAS logs"
+    },
+    {
+        "Name": "Token for importing metrics to DT on Canary",
+        "Authentication Method": "API token",
+        "Type": "Token",
+        "Typical Usage Scenarios": "Ingest metrics in Dynatrace Dashboards",
+        "User Interactions": NaN,
+        "Automated Processes and Scripts": "Igor Automations",
+        "Logs and Monitoring Details": "Igor logs"
+    },
+    {
+        "Name": "github token used for igor dashboard",
+        "Authentication Method": "Personal Access Token",
+        "Type": "Token",
+        "Typical Usage Scenarios": "Github authentication for Igor Dashboard",
+        "User Interactions": NaN,
+        "Automated Processes and Scripts": "Github Automations",
+        "Logs and Monitoring Details": "ASK RADO"
+    },
+    {
+        "Name": "TokenForDM_JaaS_Jenkins",
+        "Authentication Method": "API token",
+        "Type": "Token",
+        "Typical Usage Scenarios": "ASK ICO/BLAGO",
+        "User Interactions": "ASK ICO/BLAGO",
+        "Automated Processes and Scripts": "Igor Automations",
+        "Logs and Monitoring Details": "Igor logs, JaAS logs"
+    },
+    {
+        "Name": "NEO Core SRE DCR External API Token",
+        "Authentication Method": "API token",
+        "Type": "Token",
+        "Typical Usage Scenarios": "ASK ICO/BLAGO",
+        "User Interactions": "ASK ICO/BLAGO",
+        "Automated Processes and Scripts": "Igor Automations",
+        "Logs and Monitoring Details": "Igor logs, JaAS logs"
+    },
+    {
+        "Name": "Client certificate for CockpitAPI",
+        "Authentication Method": "Client Certificate",
+        "Type": "Oauth",
+        "Typical Usage Scenarios": "Authenticate Igor towards Monitoring Cockpit",
+        "User Interactions": NaN,
+        "Automated Processes and Scripts": "Igor Automations",
+        "Logs and Monitoring Details": "Igor logs"
+    },
+    {
+        "Name": "Central Monitoring Cockpit integration",
+        "Authentication Method": "Client Certificate",
+        "Type": "Oauth",
+        "Typical Usage Scenarios": "Authenticate Igor towards Monitoring Cockpit",
+        "User Interactions": NaN,
+        "Automated Processes and Scripts": "Igor Automations",
+        "Logs and Monitoring Details": "Igor logs"
+    },
+    {
+        "Name": "neocoresre-serviceuser",
+        "Authentication Method": "Technical User",
+        "Type": "Basic",
+        "Typical Usage Scenarios": "Create team repositories, actions, etc",
+        "User Interactions": "Login to Github Team Account",
+        "Automated Processes and Scripts": "Github Automations",
+        "Logs and Monitoring Details": NaN
+    },
+    {
+        "Name": "Splunk_API_KEY_ID_PAIR",
+        "Authentication Method": "API Key Pair",
+        "Type": "Splunk On Call",
+        "Typical Usage Scenarios": "Authenticate automations towards Splunk On Call API",
+        "User Interactions": NaN,
+        "Automated Processes and Scripts": "Github Automations",
+        "Logs and Monitoring Details": NaN
+    },
+    {
+        "Name": "CLS Credentials",
+        "Authentication Method": "CLS Credentials",
+        "Type": "Basic",
+        "Typical Usage Scenarios": "Igor to CLS, Kibana Search intergration",
+        "User Interactions": NaN,
+        "Automated Processes and Scripts": "Igor Automations",
+        "Logs and Monitoring Details": NaN
+    }
+]

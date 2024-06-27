@@ -1,0 +1,155 @@
+[
+    {
+        "Name": "Azure Sharepoint Token - Ofp**",
+        "Authentication Method": "Secret / Access Token",
+        "Type": "Token",
+        "Systems/Applications": "https://github.tools.sap/NeoCoreSRE/On-Call-Schedule",
+        "Integration Points": "Github Repo for Splunk Schedule and Graph API",
+        "Dependencies": "Splunk On Call, Schelude excel, Github Repo",
+        "Access Control Policies": " Via the Azure Portal"
+    },
+    {
+        "Name": "Splunk App Secret",
+        "Authentication Method": "Secret / Access Token",
+        "Type": "Token",
+        "Systems/Applications": "https://github.tools.sap/NeoCoreSRE/On-Call-Schedule",
+        "Integration Points": "Github Repo for Splunk Schedule and Graph API",
+        "Dependencies": "Splunk On Call, Schelude excel, Github Repo",
+        "Access Control Policies": " Via the Azure Portal"
+    },
+    {
+        "Name": "push to sharepoint token",
+        "Authentication Method": "Secret / Access Token",
+        "Type": "Token",
+        "Systems/Applications": "https://github.tools.sap/NeoCoreSRE/IgorReporting",
+        "Integration Points": "Github Repo for Igor Reporting and Graph API",
+        "Dependencies": "Igor Reporting, Jenskins Integration Github Repo",
+        "Access Control Policies": " Via the Azure Portal"
+    },
+    {
+        "Name": "sharepoint",
+        "Authentication Method": "Secret / Access Token",
+        "Type": "Token",
+        "Systems/Applications": NaN,
+        "Integration Points": "Old token that can be used for testing",
+        "Dependencies": NaN,
+        "Access Control Policies": " Via the Azure Portal"
+    },
+    {
+        "Name": "Register for SUGAR service",
+        "Authentication Method": "Personal Access Token",
+        "Type": "Token",
+        "Systems/Applications": "Github",
+        "Integration Points": "All Github Repos that use Actions",
+        "Dependencies": "All Github Repos that use Actions",
+        "Access Control Policies": "Via settings in Github Team Account"
+    },
+    {
+        "Name": "Sugar Service",
+        "Authentication Method": "Personal Access Token",
+        "Type": "Token",
+        "Systems/Applications": "Github",
+        "Integration Points": "All Github Repos that use Actions",
+        "Dependencies": "All Github Repos that use Actions",
+        "Access Control Policies": "Via settings in Github Team Account"
+    },
+    {
+        "Name": "NEOCoreSRE_ReadTokenAPIv2",
+        "Authentication Method": "API token",
+        "Type": "Token",
+        "Systems/Applications": "Dynatrace",
+        "Integration Points": "Token for Dynatrace with write configuration/SLO options",
+        "Dependencies": "ASK BLAGO",
+        "Access Control Policies": "ASK BLAGO"
+    },
+    {
+        "Name": "ThousandEyes token for alerts",
+        "Authentication Method": "API token",
+        "Type": "Token",
+        "Systems/Applications": "ThousandEyes",
+        "Integration Points": "ThousandEyes alerts",
+        "Dependencies": "ThousandEyes alerts in IGOR",
+        "Access Control Policies": "Via Thousand Eyes setting"
+    },
+    {
+        "Name": "Token for importing metrics to DT on Canary",
+        "Authentication Method": "API token",
+        "Type": "Token",
+        "Systems/Applications": "Dynatrace",
+        "Integration Points": "Token for importing metrics to DT on Canary",
+        "Dependencies": "DomainDB tester dashboards on Canary",
+        "Access Control Policies": "Via Dynatrace Settings"
+    },
+    {
+        "Name": "github token used for igor dashboard",
+        "Authentication Method": "Secret / Access Token",
+        "Type": "Token",
+        "Systems/Applications": "https://github.tools.sap/NeoCoreSRE/RaD.github.io",
+        "Integration Points": "github token used for igor dashboard",
+        "Dependencies": "Igor Dashboard",
+        "Access Control Policies": "Via settings in Github  Account (Personal)"
+    },
+    {
+        "Name": "TokenForDM_JaaS_Jenkins",
+        "Authentication Method": "API token",
+        "Type": "Token",
+        "Systems/Applications": "Jenkins",
+        "Integration Points": "Token For Data Management JaaS instance: https://dmsre.jaas-gcp.cloud.sap.corp/",
+        "Dependencies": "ASK ICO/BLAGO",
+        "Access Control Policies": "ASK ICO/BLAGO"
+    },
+    {
+        "Name": "NEO Core SRE DCR External API Token",
+        "Authentication Method": "API token",
+        "Type": "Token",
+        "Systems/Applications": "Jenkins",
+        "Integration Points": "https://dcr.int.sap.eu2.hana.ondemand.com",
+        "Dependencies": "ASK ICO/BLAGO",
+        "Access Control Policies": "ASK ICO/BLAGO"
+    },
+    {
+        "Name": "Client certificate for CockpitAPI",
+        "Authentication Method": "Client Certificate",
+        "Type": "Oauth",
+        "Systems/Applications": "Jenkins",
+        "Integration Points": "Monitoring Cockpit",
+        "Dependencies": "Igor Get Metrics Pipeline",
+        "Access Control Policies": "Via Oauth Client"
+    },
+    {
+        "Name": "Central Monitoring Cockpit integration",
+        "Authentication Method": "Client Certificate",
+        "Type": "Oauth",
+        "Systems/Applications": "Jenkins",
+        "Integration Points": "Monitoring Cockpit",
+        "Dependencies": "Igor CMC Dependant Pipelines",
+        "Access Control Policies": "Via Oauth Client"
+    },
+    {
+        "Name": "neocoresre-serviceuser",
+        "Authentication Method": "Technical User",
+        "Type": "Basic",
+        "Systems/Applications": "Github",
+        "Integration Points": "Github ",
+        "Dependencies": "Github Actions",
+        "Access Control Policies": "Via Github Settings"
+    },
+    {
+        "Name": "Splunk_API_KEY_ID_PAIR",
+        "Authentication Method": "API Key Pair",
+        "Type": "Splunk On Call",
+        "Systems/Applications": "Splunk On Call",
+        "Integration Points": "Github Repo fo Splunk Schedule",
+        "Dependencies": "Splunk On Call,  Github Repo",
+        "Access Control Policies": "Via Splunk Admin Team"
+    },
+    {
+        "Name": "CLS Credentials",
+        "Authentication Method": "CLS Credentials",
+        "Type": "Basic",
+        "Systems/Applications": "CLS",
+        "Integration Points": "CLS, BigIPLog Service",
+        "Dependencies": "Loadbalancer Logs",
+        "Access Control Policies": "In CLS"
+    }
+]
