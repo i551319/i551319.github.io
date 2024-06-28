@@ -7,6 +7,7 @@ title: Maintenance Procedures
 <table  id="maintenance-table">
   <thead>
     <tr>
+      <th>Name</th>
       <th>Authentication Method</th>
       <th>Type</th>
       <th>Routine Maintenance Tasks</th>
@@ -18,6 +19,7 @@ title: Maintenance Procedures
   <tbody>
     {% for item in site.data.Maintenance %}
     <tr>
+      <td>{{ item["Name"] }}</td>
       <td>{{ item["Authentication Method"] }}</td>
       <td>{{ item["Type"] }}</td>
       <td>{{ item["Routine Maintenance Tasks"] }}</td>

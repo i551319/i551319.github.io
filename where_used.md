@@ -7,6 +7,7 @@ title: Where Used
 <table  id="where-used-table">
   <thead>
     <tr>
+      <th>Name</th>
       <th>Authentication Method</th>
       <th>Type</th>
       <th>Systems/Applications</th>
@@ -18,6 +19,7 @@ title: Where Used
   <tbody>
     {% for item in site.data.Where_used %}
     <tr>
+      <td>{{ item["Name"] }}</td>
       <td>{{ item["Authentication Method"] }}</td>
       <td>{{ item["Type"] }}</td>
       <td>{{ item["Systems/Applications"] }}</td>

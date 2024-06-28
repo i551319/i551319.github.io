@@ -7,6 +7,7 @@ title: How Used
 <table  id="where-used-table">
   <thead>
     <tr>
+      <th>Name</th>
       <th>Authentication Method</th>
       <th>Type</th>
       <th>Typical Usage Scenarios</th>
@@ -18,6 +19,7 @@ title: How Used
   <tbody>
     {% for item in site.data.How_used %}
     <tr>
+      <td>{{ item["Name"] }}</td>
       <td>{{ item["Authentication Method"] }}</td>
       <td>{{ item["Type"] }}</td>
       <td>{{ item["Typical Usage Scenarios"] }}</td>

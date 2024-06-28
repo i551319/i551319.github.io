@@ -7,7 +7,7 @@ title: Users Inventory
 <table  id="technical-users-table">
   <thead>
     <tr>
-      <th>Username/Identifier</th>
+      <th>Name</th>
       <th>Role/Purpose</th>
       <th>Location URL</th>
       <th>Associated Systems/Applications</th>
@@ -19,7 +19,7 @@ title: Users Inventory
   <tbody>
     {% for user in site.data.Technical_Users %}
     <tr>
-      <td>{{ user["Username/Identifier"] }}</td>
+      <td>{{ user["Name"] }}</td>
       <td>{{ user["Role/Purpose"] }}</td>
       <td>{{ user["Associated Systems/Applications"] }}</td>
       <td>
