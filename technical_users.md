@@ -31,7 +31,6 @@ title: Users Inventory
       </td>
       <td>{{ user["Access Levels/Permissions"] }}</td>
       <td>{{ user["Ownership/Responsible Teams"] }}</td>
-      <td>{{ user["Last Access Time"] }}</td>
     </tr>
     {% endfor %}
   </tbody>
